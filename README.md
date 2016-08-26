@@ -14,6 +14,8 @@ docker run -it -d --name base-app -e POSTGRES_USER=base_app_dba -e POSTGRES_PASS
 ### Devise Setup
 ```
 rails g devise:install
+
+rails g devise User
 ```
 Some setup you must do manually if you haven't yet:
 
