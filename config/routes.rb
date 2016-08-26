@@ -1,5 +1,9 @@
 Rails.application.routes.draw do
 
+  get 'feedback/enter'
+
+  get 'feedback/show'
+
   devise_for :users
   root to: "home#index"
 

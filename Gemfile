@@ -31,7 +31,7 @@ gem 'jbuilder', '~> 2.5'
 gem 'bcrypt', '~> 3.1.7'
 
 # For authentication
-gem 'devise'
+gem 'devise', '~> 4.2.0'
 
 # For attachments
 gem 'paperclip', '~> 5.0.0'
