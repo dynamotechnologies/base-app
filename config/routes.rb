@@ -2,6 +2,10 @@ Rails.application.routes.draw do
 
   get 'feedback/enter'
 
+  post 'feedback/create'
+
+  get 'feedback/thanks'
+
   get 'feedback/show'
 
   devise_for :users

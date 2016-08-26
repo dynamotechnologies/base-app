@@ -4,6 +4,14 @@ class FeedbackController < ApplicationController
   def enter
   end
 
+  def create
+
+  end
+
+  def thanks
+
+  end
+
   def show
   end
 end
